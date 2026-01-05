@@ -3,7 +3,7 @@ import FriendListItem from "./FriendListItem"
 const FriendList = ({ friends }) => {
     return (
         <>
-            <ul>
+            <ul className="friend-list">
                 {/* li sayısı, dizideki nesne sayısına bağlıdır */}
                 {friends.map((friend) => (
 

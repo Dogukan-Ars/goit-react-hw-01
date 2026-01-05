@@ -6,6 +6,9 @@ import transactions from './transactions.json'
 import Profile from './components/Profile'
 import FriendList from './components/FriendList'
 import TransactionHistory from './components/TransactionHistory'
+import './components/Profile.css'
+import './components/FriendListItem.css'
+import './components/Transactions.css'
 
 function App() {
 
