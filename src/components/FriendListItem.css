@@ -38,5 +38,12 @@ ul {
 
 .friend-status {
     font-size: 14px;
-    color: #555;
+}
+
+.friend-status.online {
+    color: green;
+}
+
+.friend-status.offline {
+    color: red;
 }

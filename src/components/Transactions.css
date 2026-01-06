@@ -26,6 +26,12 @@
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
+    text-transform: capitalize;
+}
+
+.transaction-body td:first-child {
+    text-align: left;
+    width: 100px;
 }
 
 .transaction-body tr:nth-child(even) {
