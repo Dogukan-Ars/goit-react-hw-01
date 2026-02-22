@@ -1,0 +1,9 @@
+ul {
+    list-style: none;
+}
+
+.list {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+}

@@ -4,40 +4,40 @@
     box-sizing: border-box;
 }
 
-.transaction-history {
+.transactionHistory {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     font-family: Arial, sans-serif;
 }
 
-.transaction-head {
+.transactionHead {
     background-color: #333;
     color: #fff;
 }
 
-.transaction-head th {
+.transactionHead th {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
 }
 
-.transaction-body td {
+.transactionBody td {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
     text-transform: capitalize;
 }
 
-.transaction-body td:first-child {
+.transactionBody td:first-child {
     text-align: left;
     width: 100px;
 }
 
-.transaction-body tr:nth-child(even) {
+.transactionBody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-.transaction-body tr:hover {
+.transactionBody tr:hover {
     background-color: #f1f1f1;
 }
