@@ -1,30 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .transactionHistory {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin: 50px 0;
     font-family: Arial, sans-serif;
 }
 
 .transactionHead {
-    background-color: #333;
+    background-color: #2A2A2A;
     color: #fff;
 }
 
 .transactionHead th {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     text-align: center;
 }
 
 .transactionBody td {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     text-align: center;
     text-transform: capitalize;
 }
@@ -34,8 +28,12 @@
     width: 100px;
 }
 
+.transactionBody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
 .transactionBody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #D3D3D3;
 }
 
 .transactionBody tr:hover {
